@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+        "spec": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+        "type": "directory"
+      },
+      "/Users/yuren/Documents/chero/TeGong"
+    ]
+  ],
+  "_from": "plugins/cordova-plugin-hello",
+  "_id": "cordova-plugin-hello@0.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-hello",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+    "spec": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:plugins/cordova-plugin-hello",
+  "_shasum": "e35f413148c56e01a2feaa882958036a4d5911b3",
+  "_shrinkwrap": null,
+  "_spec": "/Users/yuren/Documents/chero/TeGong/plugins/cordova-plugin-hello",
+  "_where": "/Users/yuren/Documents/chero/TeGong",
+  "author": {
+    "name": "djz"
+  },
+  "cordova": {
+    "id": "cordova-plugin-hello",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Simple plugin that returns your string prefixed with hello.",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-hello",
+  "optionalDependencies": {},
+  "readme": "# Cordova Hello World Plugin\n\nSimple plugin that returns your string prefixed with hello.\n\nGreeting a user with \"Hello, world\" is something that could be done in JavaScript. This plugin provides a simple example demonstrating how Cordova plugins work.\n\n## Using\n\nCreate a new Cordova Project\n\n    $ cordova create hello com.example.helloapp Hello\n    \nInstall the plugin\n\n    $ cd hello\n    $ cordova plugin add https://github.com/don/cordova-plugin-hello.git\n    \n\nEdit `www/js/index.js` and add the following code inside `onDeviceReady`\n\n```js\n    var success = function(message) {\n        alert(message);\n    }\n\n    var failure = function() {\n        alert(\"Error calling Hello Plugin\");\n    }\n\n    hello.greet(\"World\", success, failure);\n```\n\nInstall iOS or Android platform\n\n    cordova platform add ios\n    cordova platform add android\n    \nRun the code\n\n    cordova run \n\n## More Info\n\nFor more information on setting up Cordova see [the documentation](http://cordova.apache.org/docs/en/latest/guide/cli/index.html)\n\nFor more info on plugins see the [Plugin Development Guide](http://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)\n",
+  "readmeFilename": "README.md",
+  "version": "0.0.1"
+}
